@@ -1,0 +1,33 @@
+Primeiro Passo para criar um repositório Local:
+
+-> git init
+Output:Initialized empty Git repository in C:/Users/Turma Noite/Documents/Repositório Local/.git/
+
+_______________________________________________________
+Para clonar algum repositório:
+
+-> git clone "url do Repositório"
+
+_______________________________________________________
+Criar arquivos no Git:
+
+-> touch "Seu arquivo.Formato do seu arquivo"
+
+_______________________________________________________
+Criação de Branchs (Para divisão de Partes de Trabalho, para não haver exclusões) 
+-> git branch "nome da Branch"
+
+    ***Branch principal:
+    ***"main/master"
+
+* Visualização de Branchs
+
+-> git branch
+  "Branch criada"
+* main
+  master
+_______________________________________________________
+Como vincular um Repositório Local a um Repositório Remoto 
+
+-> git remote add origin "url do repositório Remoto"
+
