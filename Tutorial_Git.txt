@@ -31,6 +31,12 @@ Como vincular um Repositório Local a um Repositório Remoto
 
 -> git remote add origin "url do repositório Remoto"
 
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+_______________________________________________________
+
+Como Subir Arquivos 
+
+1º -> git add .
+2º -> git commit -m "Comentário blablabla"
+3º -> git push ou git push --set-upstream origin "Nome da Branch utilizada"
 
 
