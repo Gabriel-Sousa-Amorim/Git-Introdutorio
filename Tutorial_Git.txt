@@ -26,6 +26,10 @@ Criação de Branchs (Para divisão de Partes de Trabalho, para não haver exclu
   "Branch criada"
 * main
   master
+
+  ->Mudar entre Branchs
+
+  git checkout "Nome da outra Branch"
 _______________________________________________________
 Como vincular um Repositório Local a um Repositório Remoto 
 
