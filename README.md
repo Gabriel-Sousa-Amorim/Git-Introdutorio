@@ -12,13 +12,13 @@
 
 #### Como clonar um Repositório Remoto:
 
--> `git clone "Url do Repositório que deseja Clonar"`
+`git clone "Url do Repositório que deseja Clonar"`
 
 > Pode se utilizar seus Repositórios Online e de outros usuários que utilizam o **Github**   
-> 
+ 
 ## Como criar arquivos no Git:
 
--> `touch "Seu arquivo.Formato do seu arquivo"`
+`touch "Seu arquivo.Formato do seu arquivo"`
 
 *EXEMPLO* 
  - Criação de arquivo *.txt* 
