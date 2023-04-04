@@ -73,7 +73,8 @@ Usado quando criarmos um repositório Local no inicio do projeto:
 
 ## Navegação entre pastas:
 Para sair da pasta atual utilizamos:
-`cd ..` 
+
+    `cd ..` 
 
  Para entrar na pasta referenciada utilizamos:
 
