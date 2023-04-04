@@ -1,5 +1,3 @@
-# GIT
-
 ## Como criar/clonar Repositórios:
 
 #### Como criar um Repositório Local:
@@ -66,12 +64,12 @@ A Saída/Output será:
 
 Quando usamos isso e queremos vincular à um repositório local
   
+
     git init
 
 Usado quando criarmos um repositório Local no inicio do projeto:  
 
     git remote add origin "url do Repositório Remoto"
-
 
 ## Navegação entre pastas:
 Para sair da pasta atual utilizamos:
@@ -83,6 +81,5 @@ Para sair da pasta atual utilizamos:
 
  
 ___
-
 
 
