@@ -69,7 +69,9 @@ Quando usamos isso e queremos vincular à um repositório local
     git init
 
 Usado quando criarmos um repositório Local no inicio do projeto:  
-  `git remote add origin "url do Repositório Remoto"`
+
+    git remote add origin "url do Repositório Remoto"
+
 
 ## Navegação entre pastas:
 Para sair da pasta atual utilizamos:
