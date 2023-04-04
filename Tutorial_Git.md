@@ -2,7 +2,7 @@
 
 #### Como criar um Repositório Local:
 
--> `git init`
+ `git init`
 
 > Quando tudo ocorrer corretamente aparecerá na saída do código: 
 
@@ -47,14 +47,14 @@ A branch principal no início do projeto será:
 ___
 ### Como visualizar as branchs:
 
-->`git branch`
+`git branch`
 
 A Saída/Output será:
 
     *main
     "Exemplo de outra branch criada pelo usuário"
 
-  ->Como mudar entre Branchs:
+  Como mudar entre Branchs:
 
       git checkout "Nome de Branch"
 
@@ -62,15 +62,23 @@ A Saída/Output será:
 
 ## Como vincular um Repositório Local a um Repositório Remoto:
 
+Quando usamos isso e queremos vincular à um repositório local
+  
+    git init
 
--> `git remote add origin "url do Repositório Remoto"`
+Usado quando criarmos um repositório Local no inicio do projeto:  
+
+`git remote add origin "url do Repositório Remoto"`
 
 ## Navegação entre pastas:
 Para sair da pasta atual utilizamos:
 `cd ..` 
- -> Para entrar na pasta referenciada
+
+ Para entrar na pasta referenciada utilizamos:
 
     cd "nome da pasta"
 
  
 ___
+
+
