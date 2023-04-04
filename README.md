@@ -1,57 +1,54 @@
 # Git
-
 ## Como criar/clonar Repositórios:
 
 **Como criar um Repositório Local:**
 
- `git init`
+    git init
 
 > Quando tudo ocorrer corretamente aparecerá na saída/output do código: 
 
-`Output: Initialized empty Git repository in C:/Diretórios especificados`
+    Output: Initialized empty Git repository in C:/Diretórios especificados
 
 >O Repositório Local é utilizado quando não temos internet e queremos criar o repositório localmente nos nossos computadores. 
 
 **Como clonar um Repositório Remoto:**
 
--> `git clone "Url do Repositório que deseja Clonar"`
+    git clone "url do repositório remoto"
 
-> Pode se utilizar seus Repositórios Online e de outros usuários que utilizam o **Github**   
-> 
-## Como criar arquivos no Git:
+> Pode se utilizar seus repositórios Online e de outros usuários que utilizam o **Github**. 
+## Como criar arquivos no git:
 
 Para criarmos um arquivo pelo código utilizaremos:
 
     touch "Seu arquivo.Formato do seu arquivo"
-    
-
-***EXEMPLO*** 
+****EXEMPLO**** 
  - Criação de arquivo *.txt* 
-touch text.txt
-
+	 - `touch text.txt`
 - Criação de arquivo *.html*
--> `touch index.html`
+	- `touch index.html`
 - Criação de arquivo *.css*
--> `touch style.css`
+	- `touch style.css`
 
 > Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...)
 
 **Como criar pastas:**
 
--> `mkdir "Nome da pasta que deseja criar"`
+    mkdir "Nome da pasta que deseja criar"
 
 
 ## Criação de Branchs
 Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal 
 
 **Para criar uma nova branch devemos:** 
-`git branch "Nome da Branch que deseja criar"`
+
+    git branch "Nome da Branch que deseja criar"
 
 > Utilize a o caractere **_** ao invés de espaços comuns para fácil referenciamento da branch no futuro.
 
 A branch principal no início do projeto será: 
 
-     main/master
+    main/master
+
 ___
 ### Como visualizar as branchs:
 
@@ -70,7 +67,7 @@ A Saída/Output será:
 
 ## Como vincular um Repositório Local a um Repositório Remoto:
 
-Quando usamos a função para criar um repositório loc:
+Quando usamos a função para criar um repositório local:
 
     git init
 
@@ -81,7 +78,7 @@ Usado quando criarmos um repositório Local no inicio do projeto, utilizamos o s
 ## Navegação entre pastas:
 Para sair da pasta atual utilizamos:
 
-    `cd ..` 
+    cd ..
 
  Para entrar na pasta referenciada utilizamos:
 
@@ -93,7 +90,6 @@ Após criarmos nosso seguinte Repositório ou clonarmos um Repositório Remoto e
 
     git status
     
-
 > Tem nescessidade de ver as modificações que você executou, em qual branch você está, e se devemos fazer comentários.
 
 Após isso iremos preparar nossos arquivos para a subida no Github com o seguinte código:
@@ -109,5 +105,6 @@ Após a preparação iremos comentar nossa mudança. **Atenção aos comentário
 
 E  para finalizar iremos subir o arquivo com o seguinte código 
 
+    git push
 
  ___
