@@ -4,7 +4,7 @@
 
  `git init`
 
-> Quando tudo ocorrer corretamente aparecerá na saída do código: 
+> Quando tudo ocorrer corretamente aparecerá na saída/output do código: 
 
 `Output: Initialized empty Git repository in C:/Diretórios especificados`
 
