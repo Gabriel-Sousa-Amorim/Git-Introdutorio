@@ -1,6 +1,6 @@
 ## Primeiro Passo para criar um repositório Local:
 
--> git init
+-> 'git init'
 Output:Initialized empty Git repository in C:/Users/Turma Noite/Documents/Repositório Local/.git/
 
 ______________________________________________________________________________________________________________________
