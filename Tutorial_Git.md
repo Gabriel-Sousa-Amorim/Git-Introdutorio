@@ -1,7 +1,10 @@
 ## Primeiro Passo para criar um repositório Local:
 
--> 'git init'
-Output:Initialized empty Git repository in C:/Users/Turma Noite/Documents/Repositório Local/.git/
+-> `git init`
+
+A saída será de:
+
+`Output: Initialized empty Git repository in C:/Users/Turma Noite/Documents/Repositório Local/.git/`
 
 ______________________________________________________________________________________________________________________
 ## Para clonar algum repositório:
