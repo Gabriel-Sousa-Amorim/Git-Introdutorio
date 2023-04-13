@@ -146,7 +146,7 @@ E para finalizar iremos subir o arquivo com o seguinte código:
 ```bash
 $ git push
 ```
- ## Pull
+ ## Como Atualizar um Repositório clonado com o Pull
  E quando temos um Repositório Online conectado em vários computadores, E se há uma atualização na branch principal o git pull irá atualizar os arquivos.
  
  ```bash
