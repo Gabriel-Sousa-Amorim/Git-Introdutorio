@@ -1,68 +1,91 @@
-# Git
+# Documentação Git.
 ## Como criar/clonar Repositórios:
+### Como criar um Repositório Local:
+```bash
+$ git init
+```
 
-**Como criar um Repositório Local:**
+Quando tudo ocorrer corretamente aparecerá na saída/output do código: 
 
-    git init
-
-> Quando tudo ocorrer corretamente aparecerá na saída/output do código: 
-
-    Output: Initialized empty Git repository in C:/Diretórios especificados
+```bash
+Output: Initialized empty Git repository in C:/Diretórios_especificados
+```
 
 >O Repositório Local é utilizado quando não temos internet e queremos criar o repositório localmente nos nossos computadores. 
 
-**Como clonar um Repositório Remoto:**
+### Como clonar um Repositório Remoto:
 
-    git clone "url do repositório remoto"
+```bash
+$ git clone "Url_do_Repositório_Remoto"
+```
 
 > Pode se utilizar seus repositórios Online e de outros usuários que utilizam o **Github**. 
 ## Como criar arquivos no git:
 
 Para criarmos um arquivo pelo código utilizaremos:
 
-    touch "Seu arquivo.Formato do seu arquivo"
+```bash
+$ touch "Arquivo_Criado.Formato do seu arquivo"
+```
+
 ****EXEMPLO**** 
- - Criação de arquivo *.txt* 
-	 - `touch text.txt`
-- Criação de arquivo *.html*
-	- `touch index.html`
-- Criação de arquivo *.css*
-	- `touch style.css`
+ - Criação de arquivo *.txt*.
+ ```bash
+$ touch Text.txt
+```
+- Criação de arquivo *.html*.
+```bash
+$ touch index.html
+```
+- Criação de arquivo *.css*.
+```bash
+$ touch style.css
+```
 
-> Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...)
+> Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...).
 
-**Como criar pastas:**
-
-    mkdir "Nome da pasta que deseja criar"
+### Como criar pastas:
+```bash
+$ mkdir "Nome_da_pasta_que_deseja_Criar"
+```
 
 
 ## Criação de Branchs
-Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal 
+Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal.
 
-**Para criar uma nova branch devemos:** 
-
-    git branch "Nome da Branch que deseja criar"
+Para criar uma nova branch devemos:
+```bash
+$ git branch "Nome_da_Branch_que_deseja_criar"
+```
 
 > Utilize a o caractere **_** ao invés de espaços comuns para fácil referenciamento da branch no futuro.
 
 A branch principal no início do projeto será: 
-
-    main/master
+```bash
+* main
+```
+> Em certos Master pode ser a sua branch principal ao invés de main.
 
 ___
 ### Como visualizar as branchs:
 
-`git branch`
+```bash
+$ git branch
+```
 
-A Saída/Output será:
+**A Saída/Output será:**
 
-    *main
-    "Exemplo de outra branch criada pelo usuário"
+```bash
+*main
+"Outras branch criada pelo usuário"
+"Outras branch criada pelo usuário"
+```
 
-  Como mudar entre Branchs:
-
-      git checkout "Nome de Branch"
-
+### Como mudar entre Branchs:
+```bash
+git checkout "Nome_de_Branch"
+```
+> Não Pode conter espaços.
 > Utilize a tecla <kbd>TAB</kbd> do seu teclado para automaticamente completar o nome das suas branchs de forma correta.
 
 ## Como vincular um Repositório Local a um Repositório Remoto:
