@@ -1,5 +1,5 @@
 # Documentação Introdutória Git.
-## Como criar um Repositório Local:
+## Como criar um Repositório Local.
 
 ```bash
 $ git init
@@ -13,7 +13,7 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 
 >O Repositório Local é utilizado quando não temos internet e queremos criar o repositório localmente nos nossos computadores. 
 
-### Como clonar um Repositório Remoto:
+### Como clonar um Repositório Remoto.
 
 ```bash
 $ git clone "Url_do_Repositório_Remoto>
@@ -21,7 +21,7 @@ $ git clone "Url_do_Repositório_Remoto>
 
 > Tem um atributo opcional que é o <directory> que seria a pasta que queremos que seja clonado o arquivo.
  
-### Como vincular um Repositório Local a um Repositório Remoto:
+### Como vincular um Repositório Local a um Repositório Remoto.
 
 Quando usamos a função para criar um repositório local:
 
@@ -60,13 +60,13 @@ $ touch style.css
 
 > Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...).
 
-### Como criar pastas:
+### Como criar pastas.
 ```bash
 $ mkdir "Nome_da_pasta_que_deseja_Criar"
 ```
 
 
-## Criação de Branchs
+## Criação de Branchs.
 Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal.
 
 Para criar uma nova branch devemos:
@@ -83,7 +83,7 @@ A branch principal no início do projeto será:
 > Em certos Master pode ser a sua branch principal ao invés de main.
 
 ___
-### Como visualizar as branchs:
+### Como visualizar as branchs.
 
 ```bash
 $ git branch
@@ -97,14 +97,14 @@ $ git branch
 "Outras branch criada pelo usuário"
 ```
 
-### Como mudar entre Branchs:
+### Como mudar entre Branchs.
 ```bash
 $ git checkout "Nome_de_Branch"
 ```
 > Não Pode conter espaços.
 > Utilize a tecla <kbd>TAB</kbd> do seu teclado para automaticamente completar o nome das suas branchs de forma correta.
 
-## Navegação entre pastas:
+## Como navegar entre pastas.
 
  Para entrar na pasta referenciada utilizamos:
 
@@ -118,7 +118,7 @@ Para sair da pasta atual utilizamos:
 $ cd ..
 ```
   
-## Como subir um arquivo para um repositório remoto 
+## Como subir um arquivo para um repositório remoto.
 
 Após criarmos nosso seguinte Repositório ou clonarmos um Repositório Remoto e fazermos as criações/modificações que desejamos, iremos digitar o seguinte código:
 
@@ -146,7 +146,7 @@ E para finalizar iremos subir o arquivo com o seguinte código:
 ```bash
 $ git push
 ```
- ## Como Atualizar um Repositório clonado com o Pull
+ ## Como atualizar um Repositório Remoto com o Pull.
  E quando temos um Repositório Online conectado em vários computadores, E se há uma atualização na branch principal o git pull irá atualizar os arquivos.
  
  ```bash
