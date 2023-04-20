@@ -1,4 +1,10 @@
 # Documentação Introdutória Git.
+
+Para utilizar você pode utilizar o Powershell já instalado no seu computador (caso for Windows), mas também pode utilizar pelo Git-bash.
+
+Sendo mais preferível o Git-bash porque a branch atual é visível pelo Git-bash.
+
+
 ## Como criar um Repositório Local.
 
 ```powershell
@@ -12,6 +18,13 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 ```
 
 >O Repositório Local é utilizado quando não temos internet e queremos criar o repositório localmente nos nossos computadores. 
+
+>Para visualizar os arquivos do seu Repositório direto pelo editor de código você terá que:
+
+```powershell
+$ cd "Nome da pasta do seu Repositório"
+
+```
 
 ### Como clonar um Repositório Remoto.
 
@@ -27,6 +40,8 @@ Quando usamos a função para criar um repositório local:
 
 ```powershell
 $ git init
+
+$ ls -a
 ```
 
 Usado quando criarmos um repositório Local no inicio do projeto, utilizamos o seguinte código para vincular o repositório local ao repositório remoto:
