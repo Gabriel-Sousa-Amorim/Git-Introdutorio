@@ -23,6 +23,7 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 
 ```powershell
 $ cd "Nome da pasta do seu Repositório"
+$ lá -a
 
 ```
 
