@@ -19,12 +19,11 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 
 >O Repositório Local é utilizado quando não temos internet e queremos criar o repositório localmente nos nossos computadores. 
 
->Para visualizar os arquivos do seu Repositório direto pelo editor de código você terá que:
+>Para visualizar os arquivos do seu Repositório direto pelo editor de código você terá que realizar os seguintes passos:
 
 ```powershell
 $ cd "Nome da pasta do seu Repositório"
-$ lá -a
-
+$ ls -a 
 ```
 
 ### Como clonar um Repositório Remoto.
@@ -34,7 +33,7 @@ $ git clone "Url_do_Repositório_Remoto>
 ```
 
 > Tem um atributo opcional que é o <directory> que seria a pasta que queremos que seja clonado o arquivo.
- 
+
 ### Como vincular um Repositório Local a um Repositório Remoto.
 
 Quando usamos a função para criar um repositório local:
@@ -155,7 +154,11 @@ Após a preparação iremos comentar nossa mudança. **Atenção aos comentário
 ```powershell
 $ git commit -m "Comentário sobre as modificações"
 ```
-> Aspas duplas apenas são utilizadas quando seu comentário tem espaços.
+> Aspas duplas apenas são utilizadas quando seu comentário tem espaços. e Para comentar todos seus arquivos faça:
+
+```powershell
+$ git commit -a -m "Comentário desjado"
+```
 
 E para finalizar iremos subir o arquivo com o seguinte código: 
 
