@@ -1,13 +1,13 @@
 # Documentação Introdutória Git.
 ## Como criar um Repositório Local.
 
-```bash
+```powershell
 $ git init
 ```
 
 Quando tudo ocorrer corretamente aparecerá na saída/output do código: 
 
-```bash
+```powershell
 Output: Initialized empty Git repository in C:/Diretórios_especificados
 ```
 
@@ -15,7 +15,7 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 
 ### Como clonar um Repositório Remoto.
 
-```bash
+```powershell
 $ git clone "Url_do_Repositório_Remoto>
 ```
 
@@ -25,13 +25,13 @@ $ git clone "Url_do_Repositório_Remoto>
 
 Quando usamos a função para criar um repositório local:
 
-```bash
+```powershell
 $ git init
 ```
 
 Usado quando criarmos um repositório Local no inicio do projeto, utilizamos o seguinte código para vincular o repositório local ao repositório remoto:
 
-```bash
+```powershell
 $ git remote add origin "url do Repositório Remoto"
 ```
 
@@ -40,28 +40,28 @@ $ git remote add origin "url do Repositório Remoto"
 
 Para criarmos um arquivo pelo código utilizaremos:
 
-```bash
+```powershell
 $ touch "Arquivo_Criado.Formato do seu arquivo"
 ```
 
 ****EXEMPLO**** 
  - Criação de arquivo *.txt*.
- ```bash
+ ```powershell
 $ touch Text.txt
 ```
 - Criação de arquivo *.html*.
-```bash
+```powershell
 $ touch index.html
 ```
 - Criação de arquivo *.css*.
-```bash
+```powershell
 $ touch style.css
 ```
 
 > Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...).
 
 ### Como criar pastas.
-```bash
+```powershell
 $ mkdir "Nome_da_pasta_que_deseja_Criar"
 ```
 
@@ -70,14 +70,14 @@ $ mkdir "Nome_da_pasta_que_deseja_Criar"
 Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal.
 
 Para criar uma nova branch devemos:
-```bash
+```powershell
 $ git branch "Nome_da_Branch_que_deseja_criar"
 ```
 
 > Utilize a o caractere **_** ao invés de espaços comuns para fácil referenciamento da branch no futuro.
 
 A branch principal no início do projeto será: 
-```bash
+```powershell
 * main
 ```
 > Em certos Master pode ser a sua branch principal ao invés de main.
@@ -85,20 +85,20 @@ A branch principal no início do projeto será:
 ___
 ### Como visualizar as branchs.
 
-```bash
+```powershell
 $ git branch
 ```
 
 **A Saída/Output será:**
 
-```bash
+```powershell
 *main
 "Outras branch criada pelo usuário"
 "Outras branch criada pelo usuário"
 ```
 
 ### Como mudar entre Branchs.
-```bash
+```powershell
 $ git checkout "Nome_de_Branch"
 ```
 > Não Pode conter espaços.
@@ -108,13 +108,13 @@ $ git checkout "Nome_de_Branch"
 
  Para entrar na pasta referenciada utilizamos:
 
-```bash
+```powershell
 $ cd <Diretorio que deseja entrar>
 ```
 
 Para sair da pasta atual utilizamos:
 
-```bash
+```powershell
 $ cd ..
 ```
   
@@ -122,7 +122,7 @@ $ cd ..
 
 Após criarmos nosso seguinte Repositório ou clonarmos um Repositório Remoto e fazermos as criações/modificações que desejamos, iremos digitar o seguinte código:
 
-```bash
+```powershell
 $ git status
 ```
     
@@ -130,25 +130,25 @@ $ git status
 
 Após isso iremos preparar nossos arquivos para a subida no Github com o seguinte código:
 
-```bash
+```powershell
 $ git add .
 ```
 
 Após a preparação iremos comentar nossa mudança. **Atenção aos comentários realizados, para serem objetivos e claros sobre o que você faz no arquivo**:
 
-```bash
+```powershell
 $ git commit -m "Comentário sobre as modificações"
 ```
 > Aspas duplas apenas são utilizadas quando seu comentário tem espaços.
 
 E para finalizar iremos subir o arquivo com o seguinte código: 
 
-```bash
+```powershell
 $ git push
 ```
  ## Como atualizar um Repositório Remoto com o Pull.
  E quando temos um Repositório Online conectado em vários computadores, E se há uma atualização na branch principal o git pull irá atualizar os arquivos.
  
- ```bash
+ ```powershell
 $ git pull
 ```
