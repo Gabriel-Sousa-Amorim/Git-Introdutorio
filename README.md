@@ -23,7 +23,7 @@ Output: Initialized empty Git repository in C:/Diretórios_especificados
 
 ```powershell
 $ cd "Nome da pasta do seu Repositório"
-$ ls -a 
+$ ls -a
 ```
 
 ### Como clonar um Repositório Remoto.
@@ -40,8 +40,6 @@ Quando usamos a função para criar um repositório local:
 
 ```powershell
 $ git init
-
-$ ls -a
 ```
 
 Usado quando criarmos um repositório Local no inicio do projeto, utilizamos o seguinte código para vincular o repositório local ao repositório remoto:
@@ -170,4 +168,14 @@ $ git push
  
  ```powershell
 $ git pull
+```
+
+## Comentar seus arquivos
+
+Após você adicionar os comentários a seus arquivos 
+
+***É uma obrigação utilizar comentários***
+
+```powershell
+$ git commit -m "Comentário desjado"
 ```
