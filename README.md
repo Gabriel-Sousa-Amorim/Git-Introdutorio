@@ -192,7 +192,7 @@ $ git commit -m "Comentário desjado"
 
 Para comentar todos seus arquivos execute:
 
-```powershell
+```bash
 $ git commit -a -m "Comentário desjado"
 ```
 
