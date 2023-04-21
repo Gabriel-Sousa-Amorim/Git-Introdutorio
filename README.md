@@ -208,4 +208,6 @@ $ git push -u origin master
 
 >Funcionando na seguinte ordem:
 
-*** $ git push -u 'nome do repositorio remoto' 'nome da branch'
+```powershell
+ $ git push -u 'nome do repositorio remoto' 'nome da branch'
+```
