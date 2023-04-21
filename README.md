@@ -199,3 +199,12 @@ Após preparar seus arquivos e executar o comentário Por padrão executaremos o
 ```powershell
 $ git push
 ```
+
+Também há como fazer o Push dos arquivos do repositorio Local ao Remoto pelo Seguinte comando 
+
+```powershell
+$ git push -u origin master
+```
+
+>Funcionando na seguinte ordem 
+*** $ git push -u 'nome do repositorio remoto' 'nome da branch'
