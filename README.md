@@ -170,12 +170,32 @@ $ git push
 $ git pull
 ```
 
-## Comentar seus arquivos
+## Commit, Como comentar seus arquivos.
 
-Após você adicionar os comentários a seus arquivos 
+Após você adicionar os comentários a seus arquivos você deverá fazer um comentário, e para comentar você executará:
 
 ***É uma obrigação utilizar comentários***
 
 ```powershell
 $ git commit -m "Comentário desjado"
+```
+
+Para comentar todos seus arquivos execute:
+
+```powershell
+$ git commit -a -m "Comentário desjado"
+```
+
+Para visualizar o histórico dos seus comentários deverá fazer o seguinte comando:
+
+```powershell
+$ git log
+```
+
+## Push, maneiras de como executar.
+
+Após preparar seus arquivos e executar o comentário Por padrão executaremos o:
+
+```powershell
+$ git push
 ```
