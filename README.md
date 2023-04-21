@@ -206,5 +206,6 @@ Também há como fazer o Push dos arquivos do repositorio Local ao Remoto pelo S
 $ git push -u origin master
 ```
 
->Funcionando na seguinte ordem 
+>Funcionando na seguinte ordem:
+
 *** $ git push -u 'nome do repositorio remoto' 'nome da branch'
