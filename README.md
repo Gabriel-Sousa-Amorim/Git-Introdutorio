@@ -78,13 +78,18 @@ $ touch style.css
 $ mkdir "Nome_da_pasta_que_deseja_Criar"
 ```
 
-
 ## Criação de Branchs.
 Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal.
 
 Para criar uma nova branch devemos:
 ```powershell
 $ git branch "Nome_da_Branch_que_deseja_criar"
+```
+
+Para criar uma branch nova e entrar nela execute:
+
+```powershell
+$ git checkout -b "Nome_da_Branch_que_deseja_criar"
 ```
 
 > Utilize a o caractere **_** ao invés de espaços comuns para fácil referenciamento da branch no futuro.
@@ -155,7 +160,7 @@ $ git commit -m "Comentário sobre as modificações"
 > Aspas duplas apenas são utilizadas quando seu comentário tem espaços. e Para comentar todos seus arquivos faça:
 
 ```powershell
-$ git commit -a -m "Comentário desjado"
+$ git commit -a -m "Comentário desejado"
 ```
 
 E para finalizar iremos subir o arquivo com o seguinte código: 
@@ -163,12 +168,21 @@ E para finalizar iremos subir o arquivo com o seguinte código:
 ```powershell
 $ git push
 ```
- ## Como atualizar um Repositório Remoto com o Pull.
+## Pull, Como atualizar um Repositório Local.
+
  E quando temos um Repositório Online conectado em vários computadores, E se há uma atualização na branch principal o git pull irá atualizar os arquivos.
  
  ```powershell
 $ git pull
 ```
+
+ Como ver a diferença antes e depois do pull.
+
+```
+$ git diff HEAD
+```
+
+> A 'HEAD' seria suas modificações mais recentes.
 
 ## Commit, Como comentar seus arquivos.
 
@@ -191,6 +205,11 @@ Para visualizar o histórico dos seus comentários deverá fazer o seguinte coma
 ```powershell
 $ git log
 ```
+
+### Como modificar seu último comentário
+
+```powershell
+$ git commit --amend -m "updated commit message"```
 
 ## Push, maneiras de como executar.
 
