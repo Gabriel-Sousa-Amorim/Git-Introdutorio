@@ -159,10 +159,6 @@ $ git commit -m "Comentário sobre as modificações"
 ```
 > Aspas duplas apenas são utilizadas quando seu comentário tem espaços. e Para comentar todos seus arquivos faça:
 
-```powershell
-$ git commit -a -m "Comentário desejado"
-```
-
 E para finalizar iremos subir o arquivo com o seguinte código: 
 
 ```powershell
@@ -209,7 +205,8 @@ $ git log
 ### Como modificar seu último comentário
 
 ```powershell
-$ git commit --amend -m "updated commit message"```
+$ git commit --amend -m "Comentário atualizado"
+```
 
 ## Push, maneiras de como executar.
 
