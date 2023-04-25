@@ -269,3 +269,10 @@ $ git push -u origin master
 ```bash
  $ git push -u 'nome do repositorio remoto' 'nome da branch'
 ```
+
+## Bibliografia
+
+* [GIT Documentation](https://git-scm.com/docs)
+* [GIT POWERSHELL](https://git-scm.com/book/pt-pt/v2/Appendix-A:-Git-em-Outros-Ambientes-Git-no-Powershell)
+* [ Comandos Git](https://comandosgit.github.io)
+* [BALTA.io](https://balta.io/blog/documentacao-com-github)
