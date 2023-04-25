@@ -55,40 +55,65 @@ $ git clone "Url_do_Repositório_Remoto>
 
 Quando usamos a função para criar um repositório local:
 
-```powershell
+```bash
 $ git init
 ```
 
 Usado quando criarmos um repositório Local no inicio do projeto, utilizamos o seguinte código para vincular o repositório local ao repositório remoto:
 
-```powershell
+```bash
 $ git remote add origin "url do Repositório Remoto"
 ```
 
 > Pode se utilizar seus repositórios online e de outros usuários que utilizam o **Github**. 
-## Como criar arquivos no git:
+## Como criar arquivos no Git-Bash.
 
-Para criarmos um arquivo pelo código utilizaremos:
+Para criarmos um arquivo pelo **Git-Bash** utilizaremos:
 
-```powershell
+```bash
 $ touch "Arquivo_Criado.Formato do seu arquivo"
 ```
 
 ****EXEMPLO**** 
- - Criação de arquivo *.txt*.
- ```powershell
-$ touch Text.txt
+ - Criação de arquivo **.txt**.
+```bash
+$ touch text.txt
 ```
-- Criação de arquivo *.html*.
-```powershell
+- Criação de arquivo **.html**.
+```bash
 $ touch index.html
 ```
-- Criação de arquivo *.css*.
-```powershell
+- Criação de arquivo **.css**.
+```bash
 $ touch style.css
 ```
 
-> Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** e etc...).
+> Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** **.md** e etc...).
+
+
+## Como criar arquivos no Powershell.
+
+Para criarmos um arquivo pelo **Powershell** utilizaremos:
+
+```powershell
+ni "Arquivo_Criado.Formato do seu arquivo"
+```
+
+****EXEMPLO**** 
+ - Criação de arquivo **.txt**.
+```powershell
+ni text.txt
+```
+- Criação de arquivo **.html**.
+```powershell
+ni index.html
+```
+- Criação de arquivo **.css**.
+```powershell
+ni style.css
+```
+
+> Se enquadra para **todos** os tipos de arquivos (**.txt** , **.html** , **.css** , **.js** , **.json**, **.py** **.md** e etc...).
 
 ### Como criar pastas.
 ```powershell
@@ -99,13 +124,13 @@ $ mkdir "Nome_da_pasta_que_deseja_Criar"
 Uma branch é nescessária para copiarmos o projeto principal (main) e fazermos uma mudanças, adições, e correções no código principal sem afetar o código principal.
 
 Para criar uma nova branch devemos:
-```powershell
+```bash
 $ git branch "Nome_da_Branch_que_deseja_criar"
 ```
 
 Para criar uma branch nova e entrar nela execute:
 
-```powershell
+```bash
 $ git checkout -b "Nome_da_Branch_que_deseja_criar"
 ```
 
@@ -120,36 +145,37 @@ A branch principal no início do projeto será:
 ___
 ### Como visualizar as branchs.
 
-```powershell
+```bash
 $ git branch
 ```
 
 **A Saída/Output será:**
 
-```powershell
+```bash
 *main
 "Outras branch criada pelo usuário"
 "Outras branch criada pelo usuário"
 ```
 
 ### Como mudar entre Branchs.
-```powershell
+```bash
 $ git checkout "Nome_de_Branch"
 ```
 > Não Pode conter espaços.
-> Utilize a tecla <kbd>TAB</kbd> do seu teclado para automaticamente completar o nome das suas branchs de forma correta.
+
+ Utilize a tecla <kbd>TAB</kbd> do seu teclado para automaticamente completar o nome das suas branchs de forma correta.
 
 ## Como navegar entre pastas.
 
  Para entrar na pasta referenciada utilizamos:
 
-```powershell
-$ cd <Diretorio que deseja entrar>
+```bash
+$ cd <Diretorio_que_deseja_entrar>
 ```
 
 Para sair da pasta atual utilizamos:
 
-```powershell
+```bash
 $ cd ..
 ```
   
@@ -157,7 +183,7 @@ $ cd ..
 
 Após criarmos nosso seguinte Repositório ou clonarmos um Repositório Remoto e fazermos as criações/modificações que desejamos, iremos digitar o seguinte código:
 
-```powershell
+```bash
 $ git status
 ```
     
@@ -165,33 +191,33 @@ $ git status
 
 Após isso iremos preparar nossos arquivos para a subida no Github com o seguinte código:
 
-```powershell
+```bash
 $ git add .
 ```
 
 Após a preparação iremos comentar nossa mudança. **Atenção aos comentários realizados, para serem objetivos e claros sobre o que você faz no arquivo**:
 
-```powershell
+```bash
 $ git commit -m "Comentário sobre as modificações"
 ```
 > Aspas duplas apenas são utilizadas quando seu comentário tem espaços. e Para comentar todos seus arquivos faça:
 
 E para finalizar iremos subir o arquivo com o seguinte código: 
 
-```powershell
+```bash
 $ git push
 ```
 ## Pull, Como atualizar um Repositório Local.
 
  E quando temos um Repositório Online conectado em vários computadores, E se há uma atualização na branch principal o git pull irá atualizar os arquivos.
  
- ```powershell
+```bash
 $ git pull
 ```
 
  Como ver a diferença antes e depois do pull.
 
-```
+```bash
 $ git diff HEAD
 ```
 
@@ -203,7 +229,7 @@ Após você adicionar os comentários a seus arquivos você deverá fazer um com
 
 ***É uma obrigação utilizar comentários***
 
-```powershell
+```bash
 $ git commit -m "Comentário desjado"
 ```
 
@@ -215,13 +241,13 @@ $ git commit -a -m "Comentário desjado"
 
 Para visualizar o histórico dos seus comentários deverá fazer o seguinte comando:
 
-```powershell
+```bash
 $ git log
 ```
 
 ### Como modificar seu último comentário
 
-```powershell
+```bash
 $ git commit --amend -m "Comentário atualizado"
 ```
 
@@ -229,18 +255,18 @@ $ git commit --amend -m "Comentário atualizado"
 
 Após preparar seus arquivos e executar o comentário Por padrão executaremos o:
 
-```powershell
+```bash
 $ git push
 ```
 
 Também há como fazer o Push dos arquivos do repositorio Local ao Remoto pelo Seguinte comando 
 
-```powershell
+```bash
 $ git push -u origin master
 ```
 
 >Funcionando na seguinte ordem:
 
-```powershell
+```bash
  $ git push -u 'nome do repositorio remoto' 'nome da branch'
 ```
