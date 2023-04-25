@@ -2,7 +2,7 @@
 
 Para usar o GIT você pode utilizar o Powershell já instalado no seu computador (caso for Windows), mas também pode utilizar pelo Git-bash.
 
-> Sendo mais preferível o Git-bash porque a branch atual é > visível pelo Git-bash.  além de terem mudanças entre semanticas
+> Sendo mais preferível o Git-bash porque a branch atual é visível pelo Git-bash.  além de terem mudanças entre semanticas
 
 
 ## Como criar um Repositório Local.
