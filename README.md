@@ -4,7 +4,6 @@ Para usar o GIT você pode utilizar o Powershell já instalado no seu computador
 
 > Sendo mais preferível o Git-bash porque a branch atual é visível pelo Git-bash, além de terem mudanças entre as suas semanticas.
 
-
 ## Como criar um Repositório Local.
 
 > O seguinte código funciona para **Powershell e Git-bash**.
@@ -36,7 +35,7 @@ O seguinte código é funciona para o **Powershell**:
 dir "Nome_da_Pasta"
 ```
 
->Entretanto temos outra forma
+>Entretanto temos outra forma no Powershell:
 
 ```powershell
 cd "Nome_da_Pasta_que_deseja_visualizar"
